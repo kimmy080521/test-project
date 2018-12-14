@@ -1,0 +1,102 @@
+SteP 1 introduce git--------------------------------------------------------
+web site :
+
+git-scm.com  introduction of git. everything is local.
+github.com   the social  network site of programmers
+gitref.org   git reference tell you how to use git
+
+command:
+
+sudo apt-get install git
+
+git --version
+
+Step 2 git global config-----------------------------------------------------
+
+command:
+git config --global user.name allen
+git config --global user.email allen123@qq.com
+git config --global color.ui true
+
+git config --list
+cat ~/.gitconfig
+
+Step 3 create repository-----------------------------------------------------
+
+git init
+git clone git@github:*******
+
+Step 4 add and commit documents----------------------------------------------
+
+git status
+git add code.c
+git commit -m 'the first to commit'
+
+Step 5 check the status of git-----------------------------------------------
+
+echo '*~' > .gitignore
+git status -s
+A  README.TXT
+ M code.c
+
+Strp 6 check the different of files------------------------------------------
+
+git diff            #the diff between working directory and staging area
+
+git diff --staged   #the diff between staging area and repository
+
+git diff HEAD       #the diff between repository and working directoty
+
+git diff --stat    brief description
+
+Step 7 undo the operition----------------------------------------------------
+
+git reset code.c            #get the file from repo to staging area
+git checkout code.c         #get the file from staging area to woring directoty
+git checkout HEAD code.c    #get cht file from repo to working directoty
+
+git commit -am 'modify the file from working directoty to repository directly'
+
+Step 8 remove or rename the file---------------------------------------------
+
+git rm old.c            #remove the file from staging area and working directory
+git rm --cached old.c   #remove the file from staging area only
+
+git mv old.c new.c      #rename old.c to new.c
+
+Step 9 save the files for a while--------------------------------------------
+
+git stash
+git stash list
+git stash pop
+
+Step 10 introduct the "commit"command with picture----------------------------
+git cat-file -t HEAD    #see the topic of HEAD
+git cat-file -p HEAD    #see the context of HEAD
+  tree ***************************************
+  parent**************************************
+  author *************************************
+  commiter ***********************************
+
+Step 11 understand the "tree-ish"----------------------------------------------
+
+cat HEAD
+tree refs
+git log --oneline       #show the log in one line
+
+Step 12 create the new branch--------------------------------------------------
+git branch              #show all the branches
+git branch tryidea      #create a new branch
+git checkout tryidea    #change the new branch
+git branch -d tryidea   #remove the branch
+
+
+Step 13 merge 1---------------------------------------------------------------
+git checkout -b tryidea #create a new branch and change
+git merge tryidea       #fast forward mode to merge
+
+Step 14 merge 2---------------------------------------------------------------
+git merge tryidea       #three-way to merge
+
+
+
