@@ -10,3 +10,5 @@ Two people work together181213-2143
 test ssh mode to push 
 
 add "gitstudy" file
+
+add "vimstudy" file
