@@ -1,0 +1,58 @@
+Step 1 the basic operation of vim---------------------------
+
+three mode of vim
+    edit mode       the "i" button  or the "o"button or the "a" button
+    guide mode      the "esc" button
+    command mode    the ":" button
+
+left down up  right  in the guide mode
+    h j k l
+
+next word in the guide mode
+    w  #the next word
+    b  #the last word
+
+next page in the guide mode
+    pageup pagedown
+    ctrl + f
+    ctrl + b
+
+select the lines
+    shift + v  after that use "up down" button
+    "v" button,change to visual mode ,and then use "up down right left" button
+
+search the word
+    the "/"button ,and then search the word
+
+substitute the word
+    :%/old/new      #substitute the word in the whole
+    first select the scope, and then substitute
+
+code-completion
+    ctrl + n
+
+Step 2 the more operition ------------------------------------------
+
+jump to the head or end of a line
+    "$" , jump to end
+    "0" , jump to head
+
+jump to the head or end of a file
+    "gg" ,jump to head
+    "G", jummp to end
+
+jumpt to the last edit point
+    "g" + ":" ,jump to the last edit point
+    "g" + "," ,jump to the next last edit point
+
+copy and paste
+    "yy" copy the line
+    "5yy" copy five lines
+    "p" paste
+    "x" and "d" cut che line
+how to change to edit mode
+    "i" insert before the current letter
+    "o" insert below the current line
+    "O" insert above the current line
+    "a" insert behind the current letter
+    "A" insert in the end of the line
