@@ -1,4 +1,4 @@
-# 学习过程
+# THE PROCESS OF STUDY
 ## 180124
 this is the first time to use git ! 180124
 ## 181213-2133
@@ -11,3 +11,6 @@ test ssh mode to push
 add "gitstudy" file
 ## 181215
 add "vimstudy" file
+### 181219
+add "markdown.md" file
+

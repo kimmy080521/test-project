@@ -7,8 +7,10 @@
 ===
 标题小
 ---
-://avatars1.githubusercontent.com/u/19565838?s=400&u=10bf613dc91485b3bf438d964e21b7777f8680a7&v=4)
 
+### 引用图片
+
+![佛系少年](https://avatars1.githubusercontent.com/u/19565838?s=400&u=10bf613dc91485b3bf438d964e21b7777f8680a7&v=4)
 
 
 ### 引用网页
