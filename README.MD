@@ -13,4 +13,5 @@ add "gitstudy" file
 add "vimstudy" file
 ### 181219
 add "markdown.md" file
-
+### 181220
+modify "gitstudy"file and add step 15&16
