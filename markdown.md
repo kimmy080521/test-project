@@ -38,7 +38,7 @@
 ### 引用代码
 
 ```c
-#i          nclude <stdio.h>
+#include <stdio.h>
 
 int main(){
 
