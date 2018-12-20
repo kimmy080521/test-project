@@ -31,6 +31,7 @@ Step 4 add and commit documents----------------------------------------------
 git status
 git add code.c
 git commit -m 'the first to commit'
+git log
 
 Step 5 check the status of git-----------------------------------------------
 
@@ -98,5 +99,31 @@ git merge tryidea       #fast forward mode to merge
 Step 14 merge 2---------------------------------------------------------------
 git merge tryidea       #three-way to merge
 
+Step 15 origin----------------------------------------------------------------
+github    github      coding.net
+origin    backup       codingnet
+  -         -           -
+   -        -          -
+    -       -         -
+     -      -        -
+      -     -       -
+    local repository
+
+vim .git/config  #you can change them for example
+
+  [remote "origin"]
+     url = git@github.com:kimmy080521/test-project.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+  [remote "backup"]
+     url = git@github.com:kimmy080521/test-project181213.git
+     fetch = +refs/heads/*:refs/remotes/backup/*
+  [remote "codingnet"]
+     url = git@git.dev.tencent.com:kimmy080521/test-project181217.git
+    fetch = +refs/heads/*:refs/remotes/codingnet/*
+
+step 16 git commit push pull ------------------------------------------------
+git push origin master
+git pull origin master
+git commit -m 'modify the fault'
 
 
