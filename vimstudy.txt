@@ -25,8 +25,10 @@ search the word
     the "/"button ,and then search the word
 
 substitute the word
-    :%/old/new      #substitute the word in the whole
+    :%s/old/new      #substitute the word
     first select the scope, and then substitute
+
+    :%s/old/new/g    #substitute the word in the global erea
 
 code-completion
     ctrl + n
@@ -42,7 +44,7 @@ jump to the head or end of a file
     "G", jummp to end
 
 jumpt to the last edit point
-    "g" + ":" ,jump to the last edit point
+    "g" + ";" ,jump to the last edit point
     "g" + "," ,jump to the next last edit point
 
 copy and paste
@@ -56,3 +58,18 @@ how to change to edit mode
     "O" insert above the current line
     "a" insert behind the current letter
     "A" insert in the end of the line
+
+step 3 the high level operition
+ :set background=dark       //背景色是深色
+ :set background=light      //背景色为浅色
+
+ :sp         //竖着分屏 ：q 退出
+ :vp         //横着分屏 ：q 退出
+
+ colorscheme darkblue   //change color
+
+ edit the vim config
+ download vimrc @ git@github.com:kimmy080521/vimrc.git
+ download vunble @ git@github.com:kimmy080521/Vundle.vim.git
+
+

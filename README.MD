@@ -15,3 +15,5 @@ add "vimstudy" file
 add "markdown.md" file
 ### 181220
 modify "gitstudy"file and add step 15&16
+### 181221
+study vimrc and Vunble
