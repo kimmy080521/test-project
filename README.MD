@@ -17,3 +17,5 @@ add "markdown.md" file
 modify "gitstudy"file and add step 15&16
 ### 181221
 study vimrc and Vunble
+### 181223
+start to study python. ps:variable,data type,string,list
