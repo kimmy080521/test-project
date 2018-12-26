@@ -22,4 +22,6 @@ start to study python. ps:variable,data type,string,list
 ### 181224
 study python.ps:tuple,dict,if,while,function,parameter
 ### 181225
-study python.ps Iterable Iterator slice map reduce filter
+study python.ps Iterable, Iterator, slice, map, reduce, filter
+### 181226
+study python.ps function program,Decorator,module program,OOP,class,Restricting acces
