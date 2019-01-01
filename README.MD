@@ -27,3 +27,5 @@ study python.ps Iterable, Iterator, slice, map, reduce, filter
 study python.ps function program,Decorator,module program,OOP,class,Restricting access
 ### 181227
 study python.ps 继承和多态，获取对象信息，类和实例，slots和property，多重集成和组合
+### 181231-190101
+study python.学习类的重新定义。枚举类型的使用。
