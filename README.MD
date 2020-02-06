@@ -31,3 +31,5 @@ study python.ps 继承和多态，获取对象信息，类和实例，slots和pr
 study python.学习类的重新定义。枚举类型的使用。
 ### 190102
 study python.学习元类，错误处理
+### 200206
+study git again
