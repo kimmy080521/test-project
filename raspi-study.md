@@ -7,3 +7,11 @@
 2、配置。命令sudo raspi-config，修改密码，配置wifi
 3、无显示器情况下，需要在SD卡中的/boot目录下建立ssh和wpa_supplicant.conf文件
 4、使用VNC远程桌面登录树莓派
+###200208Linux基本操作
+1、ls, cd, mkdir,touch, cp, mv, chmod, pwd...
+2、vim基本操作i-当前字符插入，o-下一行插入，a-下一个字符插入
+3、vim基本操作G-跳转到最后一行，gg调整到第一行，0-行首，$-行末，数字+Enter-向下移动N行
+4、vim基本操作ndd-删除，yy复制，p-粘贴，u-复原前一个操作
+5、安装软件sudo apt-get install update
+6、固定Ethernet IP地址 sudo vim /ect/dhcpcd.conf --->末尾加入static ip_address = 102.168.0.10
+7、markdown轻量级标记语言。标题分级###，*斜体*,**粗体**,~~删除~~,'重点'
