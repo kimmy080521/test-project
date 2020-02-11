@@ -17,3 +17,9 @@ Raspberry Pi 3 Model B Plus Rev 1.3
 5、安装软件sudo apt-get install update
 6、固定Ethernet IP地址 sudo vim /ect/dhcpcd.conf --->末尾加入static ip_address = 102.168.0.10
 7、markdown轻量级标记语言。标题分级###，*斜体*,**粗体**,~~删除~~,'重点'
+### 200211 GPIO操作，python3
+1、gpio readall，读出GPIO的配置说明
+2、python3,进入python环境中
+3、import RPi.GPIO as GPIO   GPIO.setmode(GPIO.BCM)   GPIO.setwarning(False)
+4、GPIO.setup(channel,GPIO.OUT)   GPIO.output(channel,LOW)  GPIO.output(HIGH)
+

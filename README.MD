@@ -33,3 +33,9 @@ study python.学习类的重新定义。枚举类型的使用。
 study python.学习元类，错误处理
 ### 200206
 study git again
+### 200208
+start to study raspi,搭建工作环境
+### 200209
+study raspi,Jyperter notebook,markdown
+### 200211
+control GPIO with python3 on Raspi 
