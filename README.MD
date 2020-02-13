@@ -39,3 +39,5 @@ start to study raspi,搭建工作环境
 study raspi,Jyperter notebook,markdown
 ### 200211
 control GPIO with python3 on Raspi 
+### 200214
+study wiringPi

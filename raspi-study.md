@@ -22,4 +22,6 @@ Raspberry Pi 3 Model B Plus Rev 1.3
 2、python3,进入python环境中
 3、import RPi.GPIO as GPIO   GPIO.setmode(GPIO.BCM)   GPIO.setwarning(False)
 4、GPIO.setup(channel,GPIO.OUT)   GPIO.output(channel,LOW)  GPIO.output(HIGH)
-
+### 200214 wiring Pi
+1,初始化 wiringPiSetup() 对应wiringPi定义；wiringPiSetupGpio() 对应BCM定义；wiringPiSetupPhys() 对应board定义；wiriongPiSetupSys() 对应系统借口
+2，核心函数 void pinMode(int pin,int mode) 配置管脚工作模式；void pullUpDnControl(int pin, int pud) 配置管脚上下拉电阻；void digitalWrite(int pin, int value) 配置管脚输出值； void digitalRead(int pin) 读取管脚电平值；void pwmWrite(int pin, int value) 写PWM值；int piBoardRev(void) 读硬件版本
