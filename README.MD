@@ -41,3 +41,5 @@ study raspi,Jyperter notebook,markdown
 control GPIO with python3 on Raspi 
 ### 200214
 study wiringPi
+### 200217
+modified the file "vimstudy.txt"
