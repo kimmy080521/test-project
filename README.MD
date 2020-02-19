@@ -43,3 +43,5 @@ control GPIO with python3 on Raspi
 study wiringPi
 ### 200217
 modified the file "vimstudy.txt"
+### 200219 
+study matlab's basic knowledge
